@@ -1,0 +1,36 @@
+h1{
+    color:rgb(171, 255, 4);
+    font-size: 60px;
+    filter: drop-shadow(30px 30px 20px #000000);
+}
+.CSS{
+border: 3px;
+background:#179ae6;
+color: yellow;
+border-radius: 20px;
+border-style: solid;
+font-size:40px;
+border-color:#119dda ;
+height: 60px;
+line-height: 55px;
+margin-left: 5px;
+margin-right: 5px;
+   
+}
+#cont{
+font-size:25px;
+color:darkorange
+}
+#cont:hover{
+color:rgb(168, 246, 13)
+}
+.CSS:hover{
+    background-color: linen;
+    border:5px solid rgb(169, 249, 10)
+    
+    
+}
+body{
+    background-image: url(1.png);
+    background-size: 100%;
+}
