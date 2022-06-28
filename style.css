@@ -4,17 +4,16 @@ h1{
     filter: drop-shadow(30px 30px 20px #000000);
 }
 .CSS{
-border: 3px;
+border: 5px;
 background:#179ae6;
 color: yellow;
 border-radius: 20px;
 border-style: solid;
 font-size:40px;
 border-color:#119dda ;
-height: 60px;
-line-height: 55px;
 margin-left: 5px;
 margin-right: 5px;
+text-align: center;
    
 }
 #cont{
@@ -34,3 +33,12 @@ body{
     background-image: url(1.png);
     background-size: 100%;
 }
+#JS{
+    text-align: center;
+    font-size: 40px;
+    color:#179ae6;
+    font-weight: bold;
+    text-shadow:(50px 50px 50px #179ae6);
+
+}
+    
