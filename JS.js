@@ -1,3 +1,13 @@
+let what = confirm("Хотите ввести свое имя ?");
+if(what){
+    let name = prompt("Введите свое имя");
+    if(name) {alert("Привет "+ name)
+}else{
+    alert('Вы нажали на "Отмена"')
+}
+}else{
+    alert("Вы отказались вводить свое имя");
+    }
 const text = document.querySelector("#JS");
 setTimeout( () => {
     echo(text)
