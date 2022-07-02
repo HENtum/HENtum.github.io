@@ -19,3 +19,22 @@ ho.style.borderRadius = "30px"
 ho.style.color = "yellow"
 ho.style.borderColor = "#179ae6"
 }
+function calk(a, b, v, z) {
+    a = prompt('Введите первое число');
+    if(a == null){
+        return; 
+    }
+    b = prompt('Введите второе число');
+    v = prompt('Какое действие будем выполнять?');
+    if(v == '+'){
+    z = (Number(a)+(Number(b)))
+    }else if(v == '-'){
+    z = (Number(a)-(Number(b)))   
+    }else if(v == '*'){
+    z = (Number(a)*(Number(b)))
+    }else if(v = '/'){
+    z = (Number(a)/(Number(b)))
+    }
+    alert(z);
+    }
+   

@@ -41,4 +41,18 @@ body{
     text-shadow:(50px 50px 50px #179ae6);
 
 }
+#submit{
+    background:#179ae6;
+    color: yellow;
+    border-radius: 20px;
+    font-size: 25px;
+    border: 5px;
+    border-style: solid;
+    border-color:#119dda 
+}
+#submit:hover{
+    background-color: linen;
+    border:5px solid rgb(169, 249, 10)   
+}
+
     
