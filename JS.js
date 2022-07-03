@@ -3,10 +3,10 @@ if(what){
     let name = prompt("Введите свое имя");
     if(name) {alert("Привет "+ name)
 }else{
-    alert('Вы нажали на "Отмена"')
+alert("Вы отказались вводить свое имя")  
 }
 }else{
-    alert("Вы отказались вводить свое имя");
+    alert("Отмена");
     }
 const text = document.querySelector("#JS");
 setTimeout( () => {
@@ -37,4 +37,23 @@ function calk(a, b, v, z) {
     }
     alert(z);
     }
-   
+    function parse(){
+    let date = new Date();
+    if (date.getDate() && date.getMonth() < 10){
+    document.getElementById("container").innerHTML = ( "Дата: " + "0" + date.getDate() + ".0" + date.getMonth() + "." + date.getFullYear())
+    }else{
+    document.getElementbyid("container").innerHTML = ( "Дата: " +  date.getDate() + "." + date.getMonth() + "."+ date.getFullYear())
+    }}
+    parse()
+    function ter(){
+    document.getElementById("container").innerHTML = "Но это не точно";
+    }
+    function ret(){
+        return parse();
+    }
+    function qer(){
+        document.getElementById("cont").innerHTML = "Если нажмешь то окажешся в яндексе, а эта страница закроеться";
+    }
+    function wet(){
+        document.getElementById("cont").innerHTML = "Это проверка ссылки";  
+    }
