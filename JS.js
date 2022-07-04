@@ -39,10 +39,12 @@ function calk(a, b, v, z) {
     }
     function parse(){
     let date = new Date();
-    if (date.getDate() && date.getMonth() < 10){
-    document.getElementById("container").innerHTML = ( "Дата: " + "0" + date.getDate() + ".0" + date.getMonth() + "." + date.getFullYear())
+    let b =  date.getMonth();
+    let a = (Number(b))+1
+    if (date.getDate() && a < 10){
+    document.getElementById("container").innerHTML = ( "Дата: " + "0" + date.getDate() + ".0" + a + "." + date.getFullYear())
     }else{
-    document.getElementbyid("container").innerHTML = ( "Дата: " +  date.getDate() + "." + date.getMonth() + "."+ date.getFullYear())
+    document.getElementbyid("container").innerHTML = ( "Дата: " +  date.getDate() + "." + a + "."+ date.getFullYear())
     }}
     parse()
     function ter(){
