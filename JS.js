@@ -59,3 +59,9 @@ function calk(a, b, v, z) {
     function wet(){
         document.getElementById("cont").innerHTML = "Это проверка ссылки";  
     }
+    function hello(){
+    document.getElementById("World").innerHTML = ("Привет мир")
+    }
+    function byi(){
+    document.getElementById("World").innerHTML = ("Hello World")
+    }
